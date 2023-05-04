@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Humaya</title>
+</head>
+
+<body>
+  <header>
+    <!-- Navbar Principal -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+      <div class="container-fluid me-1">
+        <a class="navbar-brand" href="#home"><img src="../imagenes/Logo/HsinDulce100x100.png" alt="imagenLogoHumaya" class="imgLogoNav"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#quienessomos">¿Quienes somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#locales">Locales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#contactos">Contactos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#newletter">Newsletter</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--Section Portada-->
+    <section class="container-fluid p-0 imgPortada" id="home">
+      <div class="position-relative d-flex align-items-end flex-column me-4 me-md-5 ">
+        <h1 class="p-2 fs-4 text-white text-uppercase">humaya</h1>
+        <p class="d-none d-md-block text-white text-end w-25">Los producos HUMAYA son elaborados desde hace más de 50 años fiel a las tradiciones familiares y sabores caseros, acompañándote en los momentos más importantes de la vida.</p>
+        <a href="pages/error.html" class="btn btn-light mt-5 mb-4 fw-bold">CONOCENOS</a>
+      </div>
+    </section>
+
+    <!--Section Calidad-->
+    <section class="container-fluid text-center pt-4 primerColorFondo segundoColorTxt">
+      <div>
+        <h2 class="fs-6 mb-4">La mejor calidad para vos</h2>
+        <div class="d-flex justify-content-center">
+          <div class="col-3 col-sm-2 p-0">
+            <img class="imgCalidad" src="imagenes/Calidad/100Organico.png" alt="organico">
+            <p class="descripcionCalidad text-uppercase mt-2">100% organico</p>
+          </div>
+
+          <div class="col-3 col-sm-2 p-0">
+            <img class="imgCalidad" src="imagenes/Calidad/sinTac.png" alt="sin tac">
+            <p class="descripcionCalidad text-uppercase mt-2">sin tac</p>
+          </div>
+
+          <div class="col-3 col-sm-2 p-0">
+            <img class="imgCalidad" src="imagenes/Calidad/sinConcervantes.png" alt="sin concervantes">
+            <p class="descripcionCalidad text-uppercase mt-2">sin concervantes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Section Productos-->
+    <section class="container-fluid segundoColorFondo text-center p-0" id="productos">
+      <h3 class="fs-6 pt-2">PRODUCTOS</h3>
+      <div class="row g-0"><!--producto 1-->
+        <div id="producto1" class="carousel slide col-md-6 order-0">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="imagenes/Productos/Producto1.png" class="d-block w-100 imgProducto" alt="producto1a">
+            </div>
+            <div class="carousel-item">
+              <img src="imagenes/Productos/Producto1b.jpg" class="d-block w-100 imgProducto" alt="producto1b">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#producto1" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#producto1" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="tercerColorFondo segundoColorTxt letraProducto py-2 px-5 col-md-6 order-1">
+          <h2 class="text-uppercase fs-6 my-md-3">dulce de leche tradicional</h2>
+          <p class="text-white my-md-4">Elaboración artesanal de principio a fin, con un sabor intenso, receta tradicional.</p>
+          <p>Presentación en frasco de vidrio de 580gr</p>
+          <div><a href="pages/error.html" class="botonBorde segundoColorTxt">+info</a></div>
+        </div>
+      </div>
+
+      <div class="row g-0"><!--producto 2-->
+        <div id="producto2" class="carousel slide col-md-6 order-0 order-md-1">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../imagenes/Productos/Producto2.png" class="d-block w-100 imgProducto" alt="producto2a">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/Productos/Producto2b.jpg" class="d-block w-100 imgProducto" alt="producto2b">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#producto2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#producto2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="tercerColorFondo segundoColorTxt letraProducto py-2 px-5 col-md-6 order-1 order-md-0">
+          <h2 class="text-uppercase fs-6 my-md-3">dulce de leche sin azúcar</h2>
+          <p class="text-white my-md-3">Elaboración artesanal para cuidar tu silueta sin renunciar a nada, endulzado naturalmente con stevia.</p>
+          <p>Presentación en frasco de vidrio de 580gr y 280gr.</p>
+          <div><a href="../pages/error.html" class="botonBorde segundoColorTxt">+info</a></div>
+        </div>
+      </div>
+
+      <div class="row g-0"><!--producto 3-->
+        <div id="producto3" class="carousel slide col-md-6 order-0">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../imagenes/Productos/Producto3.png" class="d-block w-100 imgProducto" alt="producto3a">
+            </div>
+            <div class="carousel-item">
+              <img src="../imagenes/Productos/Producto3b.jpg" class="d-block w-100 imgProducto" alt="producto3b">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#producto3" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#producto3" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="tercerColorFondo segundoColorTxt letraProducto py-2 px-5 col-md-6 order-1">
+          <h2 class="text-uppercase fs-6 my-md-3">dulce choconutt</h2>
+          <p class="text-white my-md-3">Elaboración artesanal para el capricho dulce, combinación de dulce de leche, chocolate y pasta de avellanas. Una delicia unica.</p>
+          <p>Presentación en frasco de vidrio de 280gr</p>
+          <div><a href="../pages/error.html" class="botonBorde segundoColorTxt">+info</a></div>
+        </div>
+      </div>
+    </section>
+
+    <!--CARRUCEL Producto elaborado-->
+    <section class="container-fluid segundoColorFondo text-center px-3">
+      <div><!--3 elementos-->
+        <div id="carruselProductoElaborado" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active ">
+
+              <div class="row">
+                <div class="col-md-6 order-1 order-md-0 p-3 letraProdElaborado">
+                  <div class="card-body primerColorTxt">
+                    <h5 class="card-title text-uppercase fs-6 my-md-3 ">alfajores de maicena</h5>
+                    <p class="card-text text-white mx-md-5 my-md-4 ">Alfajores de dulce de leche con coco rallado, relleno con 2cm de
+                      pura dulzura. Pudiendo elegir entre dulce de leche tradicional, light o choconutt.</p>
+                    <p class="card-text fw-bold">Presentación en caja de 6 o 12 alfajores.</p>
+                    <div class=""><a href="pages/error.html" class="botonBorde primerColorTxt">+info</a></div>
+                  </div>
+                </div>
+                <div class="col-md-6 order-0 order-md-1 p-3">
+                  <img src="imagenes/Productos/ProdElab1.jpg" class="imgProductosElaborados" alt="...">
+                  <!-- img-fluid rounded-start -->
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+
+              <div class="row">
+                <div class="col-md-6 order-1 order-md-0 p-3 letraProdElaborado">
+                  <div class="card-body primerColorTxt">
+                    <h5 class="card-title text-uppercase fs-6 my-md-3">alfajores con baño de chocolate</h5>
+                    <p class="card-text text-white mx-md-5 my-md-4 ">Alfajores de dulce de leche bañados en chocolate, relleno con 2cm del mas rico dulce de leche.
+                       Pudiendo elegir entre dulce tradicional, light o choconutt.</p>
+                    <p class="card-text fw-bold">Presentación en caja de 6 o 12 alfajores.</p>
+                    <div class=""><a href="../pages/error.html" class="botonBorde primerColorTxt">+info</a></div>
+                  </div>
+                </div>
+                <div class="col-md-6 order-0 order-md-1 p-3">
+                  <img src="../imagenes/Productos/ProdElab2.jpg" class="imgProductosElaborados" alt="...">
+                  <!-- img-fluid rounded-start -->
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselProductoElaborado"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselProductoElaborado"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <!--Section Quienes Somos-->
+    <section class="container-fluid primerColorFondo segundoColorTxt text-center p-4" id="quienessomos">
+      <div class="row g-0"><!---->
+        <div class="col-md-6 p-3">
+          <h3 class="p-2">¿Quienes somos?</h3>
+          <p class="letraQuienesSomos p-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, doloremque
+            recusandae! Distinctio optio officiis adipisci quisquam sed eaque, blanditiis sunt asperiores eius quia non
+            illum perferendis, totam ipsum dicta dolore.</p>
+        </div>
+
+        <div id="carruselCliente" class="col-md-6 carousel slide segundoColorFondo primerColorTxt p-2">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h6 class="letraTituloCliente">Bagley</h6>
+              <img src="imagenes/Clientes/Bagley.png" class="imgClientes" alt="img1">
+            </div>
+            <div class="carousel-item">
+              <h6 class="letraTituloCliente">Arcor</h6>
+              <img src="imagenes/Clientes/arcor.png" class="imgClientes" alt="img2">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carruselCliente" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carruselCliente" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section Formulario -->
+    <section class="container-fluid primerColorTxt fw-bolder" id="contactos">
+      <div class="row"> <!--3 elementos-->
+        <div class="col-md-6 p-0">
+          <img src="imagenes/Formulario/formulario.jpg" alt="formulario" class="imgFormulario">
+        </div>
+        <div class="col-md-6 px-4 py-3">
+          <p class="">Dejanos tu consulta y nuestro personal se pondrá en contacto a la brevedad:</p>
+          <form action="pages/error.html">
+            <label for="nombre" class="form-label">NOMBRE</label>
+            <input type="text" class="form-control mb-1" placeholder="xxxxxx" id="nombre" required minlength="2"
+              maxlength="60">
+            <label for="email" class="form-label">E-MAIL</label>
+            <input type="email" class="form-control mb-1" id="email" aria-describedby="emailHelp"
+              placeholder="name@example.com" required minlength="6" maxlength="40">
+            <label for="consulta" class="form-label">CONSULTA</label>
+            <textarea name="" class="form-control mb-1" id="consulta" cols="3" rows="3"
+              placeholder="Agregue aqui su consulta" required minlength="1" maxlength=""></textarea>
+            <div class="text-center"><button class="botonBorde my-2 primerColorTxt bg-white"
+                type="submit">Enviar</button></div>
+          </form>
+        </div>
+      </div>
+
+    </section>
+
+    <!--Section Resetas-->
+    <section class="primerColorFondo segundoColorTxt text-center p-2" id="newletter">
+      <div class="container">
+        <h2>Resetas</h2>
+        <div class="primerColorTxt row justify-content-center p-1">
+          <div class="segundoColorFondo col-10 col-md-3 card p-0 rounded-0 border-0 m-2">
+            <img src="imagenes/Resetas/conitos.jpg" alt="" class="card-img-top rounded-0 imgResetas">
+            <div class="card-body p-2">
+              <h5 class="text-uppercase">conitos</h5>
+              <p class="letraReseta mb-0">Una deliciosa opción para acompañar las meriendas, ese antojo de media noche
+                o
+                compartir con amigos.</p>
+            </div>
+            <div class="p-2">
+              <a class="botonBorde primerColorTxt">preparacion</a>
+            </div>
+          </div>
+
+          <div class="segundoColorFondo col-10 col-md-3 card mx-md-3 p-0 rounded-0 border-0 m-2">
+            <img src="imagenes/Resetas/pepas.jpg" alt="" class="card-img-top rounded-0 imgResetas">
+            <div class="card-body p-2">
+              <h5 class="text-uppercase">pepas</h5>
+              <p class="letraReseta mb-0">Las galletitas más tiernas y ricas, rellenas de dulce de leche, ideales para
+                el
+                mate y la hora del té.</p>
+            </div>
+            <div class="p-2">
+              <a href="pages/error.html" class="botonBorde primerColorTxt">preparacion</a>
+            </div>
+          </div>
+
+          <div class="segundoColorFondo col-10 col-md-3 card p-0 rounded-0 border-0 m-2">
+            <img src="imagenes/Resetas/torta.jpg" alt="" class="card-img-top rounded-0 imgResetas">
+            <div class="card-body p-2">
+              <h5 class="text-uppercase">torta nutt</h5>
+              <p class="letraReseta mb-0">La torta de tres capas más sabrosa del mundo, combina una base de vainilla,
+                dulce de leche y cubierta de choconutt</p>
+            </div>
+            <div class="p-2">
+              <a href="pages/error.html" class="botonBorde primerColorTxt">preparacion</a>
+            </div>
+          </div>
+        </div>
+        <p class="mb-2">Encontranos en: </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <section class="bg-black segundoColorTxt">
+      <div class="container">
+        <div class="row justify-content-center py-3 ">
+
+          <div class="col-sm-2 p-0 text-center">
+            <a href="#home"><img src="imagenes/Logo/HconDulce100x100.png" alt="imagenLogoFooter" class="imgLogoFooter"></a>
+          </div>
+          <div class="col-6 col-sm-2 p-0 text-center mt-2">
+            <h5>MENU</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#home" class="text-decoration-none segundoColorTxt">Home</a>
+              </li>
+              <li>
+                <a href="#productos" class="text-decoration-none segundoColorTxt">Productos</a>
+              </li>
+              <li>
+                <a href="#locales" class="text-decoration-none segundoColorTxt">Locales</a>
+              </li>
+              <li>
+                <a href="#contactos" class="text-decoration-none segundoColorTxt">Contactos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-3 p-0 text-center mt-2">
+            <h5 class="fs-sm-6">NAVEGACION</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="pages/error.html" class="text-decoration-none segundoColorTxt">Preguntas frecuentes</a>
+              </li>
+              <li>
+                <a href="pages/error.html" class="text-decoration-none segundoColorTxt">Distribuidores</a>
+              </li>
+              <li>
+                <a href="pages/error.html" class="text-decoration-none segundoColorTxt">Prensa</a>
+              </li>
+              <li>
+                <a href="pages/error.html" class="text-decoration-none segundoColorTxt">Resetas exclusivas</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-2 p-0 text-center mt-2">
+            <h5>REDES</h5>
+            <ul class="list-unstyled">
+              <li>
+                <a href="pages/error.html"><i class="bi bi-instagram text-decoration-none segundoColorTxt fs-3"></i></a>
+              </li>
+              <li>
+                <a href="pages/error.html"><i class="bi bi-facebook text-decoration-none segundoColorTxt fs-3"></i></a>
+              </li>
+              <li>
+                <a href="pages/error.html"><i class="bi bi-tiktok text-decoration-none segundoColorTxt fs-3"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6 col-sm-3 p-0 text-center mt-2" id="locales">
+            <h5>UBICACIÓN</h5>
+            <p>Monte de Oca 2356, CABA</p>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14241.076361140696!2d-65.2050432!3d-26.8313923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1681522094549!5m2!1ses!2sar"
+              width="140" height="100" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p class="segundoColorFondo primer-color-txt text-center mb-0">MAQUETADO WEB - MORALES NATALIA</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
